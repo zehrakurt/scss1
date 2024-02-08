@@ -272,7 +272,7 @@ line-height: normal;
     border-radius: 40px;
     
     padding-left: 46px;
-    background-color: blueviolet;
+    background-color:#FFF;
     
 
     .first-1{
@@ -282,7 +282,7 @@ line-height: normal;
     .first-head{
         color: #000;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -342,13 +342,13 @@ letter-spacing: -0.15px
 
 }
 .chart{
-width: 113.5px;
+width: 90px;
 height: 40.922px;
 }
-.prise{
+.price{
 color: #222;
 font-family: Poppins;
-font-size: 18px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -369,7 +369,7 @@ height: 25px;
 .name{
 color: #000;
 font-family: Poppins;
-font-size: 18px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -387,7 +387,11 @@ line-height: normal;
     overflow: hidden;
 }
 .buy-bosluk{
-padding:196px 128px 210px;
+margin-left: 100px;
+margin-right: 100px;
+color: #FFF;
+padding-top: 150px;
+padding-bottom: 150px;
 
 .trade{
  color: #222222;
@@ -404,9 +408,11 @@ padding:196px 128px 210px;
 }
 .trade-alt{
 margin-top: 30px;
+
 }
 .aps-1{
     position: relative;
+    margin-bottom: 30px;
     input{
         text-align: right;
         height: 70px;
@@ -449,8 +455,8 @@ margin-top: 30px;
         border-color:#3984f4 ;
 }
 .buy-image{
-    width: 500px;
-height:500px;
+    width: 100%;
+height:auto;
 }
 
 
@@ -869,6 +875,7 @@ font-weight: 400;
 line-height: normal;
 color: #666;
 margin-top: 15px;
+padding-bottom: 80px;
 }
 }
 .a-part{
@@ -1001,11 +1008,7 @@ gap: 10px;
     .bsk{
         padding-left: 120px;
     }
-    .shadow-1{
-        border-right: 1px solid  #DDD;
-        padding-top: 0;
-        padding-left: 4rem;
-    }
+    
     .form-control{
         font-family: Poppins;
 font-size: 10px;
@@ -1015,6 +1018,39 @@ line-height: normal;
 color: #05408e;
     }
 }
-.ortalama{
-    text-align: center;
+.s-table{
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-top: -50px;
+    margin-bottom: 80px;
 }
+.buy-buton{
+    display: flex;
+width: 507px;
+height: 64px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 40px;
+background: (linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.copy{
+    color: #666;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
