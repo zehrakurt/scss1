@@ -1,6 +1,4 @@
 
-
-
 body{
     font-family: 'Poppins', sans-serif;
    
@@ -388,11 +386,7 @@ line-height: normal;
 }
 .buy-bosluk{
 margin-left: 100px;
-margin-right: 100px;
 color: #FFF;
-padding-top: 150px;
-padding-bottom: 150px;
-
 .trade{
  color: #222222;
  font-family: Poppins;
@@ -448,14 +442,31 @@ margin-top: 30px;
     }
 }
 }
-.form-select {
-   height: 70px;
-   width: 200px;
-   border-radius: 22px;
-        border-color:#3984f4 ;
+.buy-down {
+    width: 139px;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 22px;
+border: 1px solid (#3984F4);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: #222;
+margin-left:10px;
+img{
+    width: 25px;
+height: 25px;
 }
+}
+
 .buy-image{
-    width: 100%;
+width: 100%;
 height:auto;
 }
 
@@ -841,6 +852,7 @@ padding-bottom: 60px;
     &:after {
         display: none;
     }
+ 
 }
 
 
@@ -955,27 +967,23 @@ padding-bottom: 20px;
 padding-left: 20px;
 margin-top: 100px;
 }
-.bi-arrow-up{
-    padding-left: 10px;
-}
 .alt-1{ 
     margin-top: 40px;
     background-color: #FFF;
     margin-top: 58px;
     border-top: 1px solid  #DDD;
     border-bottom: 1px solid #DDD;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    
  
     ul li{
-        font-family: Poppins;
+font-family: Poppins;
 font-size: 13px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 color: #666;
 padding-bottom: 24px;
-padding-left: 100px;
+padding-left: 2rem;
     }
     .newes{
         font-family: Poppins;
@@ -994,28 +1002,30 @@ color: #666;
 padding-bottom: 19px;
     }
     .sub-1{
-        display: flex;
-width: 35px;
-height: 35px;
-padding: 10px;
+display: inline-flex;
+width: 27px;
+height:27px;
 justify-content: center;
 align-items: center;
 gap: 10px;
     }
     .logo-son{
-        padding-left: 100px;
+        padding-left: 120px;
+        padding-top: 50px;
     }
     .bsk{
-        padding-left: 120px;
+        padding-left: 70px;
     }
     
     .form-control{
         font-family: Poppins;
+ display: inline-block;       
 font-size: 10px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 color: #05408e;
+width: 50%;
     }
 }
 .s-table{
@@ -1025,8 +1035,8 @@ color: #05408e;
     margin-bottom: 80px;
 }
 .buy-buton{
-    display: flex;
-width: 507px;
+
+width: 450px;
 height: 64px;
 padding: 8px;
 justify-content: center;
@@ -1054,3 +1064,49 @@ padding-top: 25px;
 padding-bottom: 25px;
 }
 
+.sha{
+    border-right: 1px solid #DDD;
+}
+.colss{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.bayrak{
+    &::after{
+        content: "👩‍💻";
+    }
+}
+@media screen and (max-width: 768px){
+    .buy-buton{
+width: 250px;
+height: 58px;
+padding: 10px;
+gap: 10px;
+flex-shrink: 0;
+    }
+}
+@media screen and ( max-width:768px) {
+    .trade{
+        color: #222222;
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 300;
+        line-height: 12px;
+        margin-bottom: 20px;   
+       }
+       .flat{
+        display: none;
+       }
+       .today-1{
+        text-align: center;
+       }
+       .sell{
+        text-align: center;
+        font-family: Poppins;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.34px;
+       }
+}
